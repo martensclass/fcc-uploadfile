@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FreeCodeCamp File Upload</title>
+        <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+        <style>
+            html{
+                background: #82706B;
+                height: 95%;
+            }
+            body{
+                background: white;
+                width: 95%;
+                margin: 5px auto;
+                height: 95%;
+                 box-shadow: 10px 10px 5px #333333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-10 col-md-offset-1'>
+        <h1>FreeCodeCamp File Size / Metdata Service</h1><hr>
+        
+        <h3>How It Works</h3>
+        <p>Upload a file and the app will provide the file size.  That's it.</p>
+        
+        Select a file to upload: <br />
+        <form action="/file_upload" method="POST" 
+            enctype="multipart/form-data">
+            <input type="file" name="somefile" size="50" />
+            <br />
+            <input type="submit" value="Upload File" />
+        </form>
+        
+        
+        <div style="margin-top: 30px;">
+        <hr style="border: 1px solid #ccc;">
+        <h6 class='pull-right'>Another fine coding project by John Martens &nbsp;<img src='https://lh3.googleusercontent.com/-VGyN2Vhp68s/Vrxs2Z331EI/AAAAAAAAHyU/dA_OggEu-0wyOkRifq1AV7pbQKdaQDTKQCCo/s128/johnmartens.png' class='img-circle' height=75></h6>    
+        </div>
+        
+        
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
